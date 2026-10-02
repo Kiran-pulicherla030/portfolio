@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Pulicherla Venkatakiran – Embedded Systems Engineer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400;600;800&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header><div class="wrap"><nav aria-label="Main">
+<b>P. Venkatakiran</b>
+<a class="h" href="#about">About</a><a class="h" href="#skills">Skills</a><a class="h" href="#projects">Projects</a><a class="h" href="#journey">Education</a><a href="#contact">Contact</a>
+<button class="tbtn" id="theme" aria-label="Switch light or dark theme">Theme</button>
+</nav></div></header>
+
+<main class="wrap">
+<div class="hero" id="top">
+<div>
+<div class="who"><div class="badge"><span class="dot"></span>Open to entry-level roles</div></div>
+<h1>I write C that talks to hardware.</h1>
+<p class="sub">Hi, I'm Venkatakiran, an EEE graduate who builds embedded firmware and Linux system programs: UART, SPI, I2C and CAN drivers, a working shell, and a car black box.</p>
+<div class="btns"><a class="btn p" href="#projects">See my projects</a><a class="btn s" href="#contact">Hire me</a></div>
+</div>
+<div class="term" role="region" aria-label="Interactive terminal">
+<div class="tbar"><i></i><i></i><i></i><span>venkat@pic18f4580: ~</span></div>
+<div id="out" aria-live="polite"></div>
+<div class="chips" id="chips"></div>
+<label class="tin"><span class="o" style="color:#4fc79b">$</span><input id="cmd" autocomplete="off" spellcheck="false" placeholder="type a command, e.g. help" aria-label="Terminal command"></label>
+</div>
+</div>
+
+<section id="about">
+<h2>About</h2>
+<div class="about"><img src="venkatakiran.jpg" alt="Pulicherla Venkatakiran in a blazer, standing in an electronics lab" loading="lazy"><div><p class="lead">Recent B.Tech graduate in Electrical and Electronics Engineering with a strong base in C programming, Linux internals and embedded systems. I learn by building, and I am looking for an entry-level role where I can ship firmware and keep growing.</p>
+<div class="stats">
+<div class="stat"><b data-n="5">0</b><span>C projects built end to end</span></div>
+<div class="stat"><b data-n="4">0</b><span>protocols: UART, SPI, I2C, CAN</span></div>
+<div class="stat"><b data-n="3">0</b><span>languages: Telugu, English, Hindi</span></div>
+<div class="stat"><b data-n="2024">0</b><span>B.Tech EEE graduate</span></div>
+</div>
+</div></div>
+</section>
+
+<section id="skills">
+<h2>Skills</h2>
+<p class="lead">Tap a category to filter.</p>
+<div class="tabs" id="tabs">
+<button class="tab" data-f="all" aria-pressed="true">All</button><button class="tab" data-f="lang" aria-pressed="false">Languages</button><button class="tab" data-f="mcu" aria-pressed="false">Microcontroller</button><button class="tab" data-f="proto" aria-pressed="false">Protocols</button><button class="tab" data-f="linux" aria-pressed="false">Linux</button><button class="tab" data-f="tool" aria-pressed="false">Tools</button>
+</div>
+<div class="skills" id="skl"></div>
+</section>
+
+<section id="projects">
+<h2>Projects</h2>
+<p class="lead">Select a project to read what I built and how it works.</p>
+<div class="tabs" id="ptabs">
+<button class="tab" data-f="all" aria-pressed="true">All</button><button class="tab" data-f="emb" aria-pressed="false">Embedded</button><button class="tab" data-f="lin" aria-pressed="false">Linux</button><button class="tab" data-f="c" aria-pressed="false">Pure C</button>
+</div>
+<div class="projects" id="pj"></div>
+</section>
+
+<section id="journey">
+<h2>Education and training</h2>
+<p class="lead">&nbsp;</p>
+<div class="tl">
+<div class="ti"><small>Advanced Embedded Systems</small><h3>Emertxe Information Technologies</h3><p>Embedded C, PIC18F4580, communication protocols, Linux internals, and the training projects below.</p></div>
+<div class="ti"><small>Dec 2021 – May 2024</small><h3>B.Tech, Electrical and Electronics Engineering</h3><p>Newtons Institute of Engineering, Macherla · CGPA 7.50</p></div>
+<div class="ti"><small>Jul 2020 – Jan 2021</small><h3>Trainee, Chowdeswari Electricals</h3><p>Six months of hands-on transformer manufacturing and repair, and diagnosing common transformer faults.</p></div>
+<div class="ti"><small>Jun 2018 – Apr 2021</small><h3>Diploma, EEE</h3><p>Government Polytechnic College, Tadipatri · 69.88%</p></div>
+</div>
+</section>
+
+<section id="contact">
+<h2>Let's talk</h2>
+<p class="lead">I am available for entry-level embedded, firmware and C/Linux roles. Based in Tadipatri, Andhra Pradesh, open to relocation.</p>
+<div class="cgrid">
+<a class="cc" href="mailto:pulicherlavenkat75@gmail.com"><small>Email</small><b>pulicherlavenkat75@gmail.com</b></a>
+<a class="cc" href="tel:+919160367368"><small>Phone</small><b>+91 91603 67368</b></a>
+<button class="cc" id="copy"><small>Quick action</small><b>Copy my email address</b></button>
+</div>
+</section>
+</main>
+<footer><div class="wrap">© Pulicherla Venkatakiran · Built with C-level attention to detail.</div></footer>
+<div id="toast" role="status"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
